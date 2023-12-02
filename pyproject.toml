@@ -1,0 +1,22 @@
+[project]
+name = "frame-transformer"
+version = "0.1"
+description = "A frame transformation documentation to conquer them all"
+readme = "README.md"
+requires-python = ">=3.8.0"
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Programming Language :: Python",
+]
+dependencies = [
+    "tyro",
+    "rich",
+    "numpy",
+    "scipy",
+]
+
+[project.scripts]
+ft-explain = "frame_transformer.scripts.explain_change:entrypoint"
+
+[tool.black]
+line-length = 120
