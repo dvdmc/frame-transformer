@@ -2,7 +2,7 @@
 A frame transformation documentation to conquer them all
 
 <p align="center">
-  <img src="./resources/frame_transformer_teaser.png" width="350" title="teaser">
+  <img src="./resources/frame_transformer_teaser.png" width="640" title="teaser">
 </p>
 
 
