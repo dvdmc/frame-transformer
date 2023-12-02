@@ -2,7 +2,13 @@
 A frame transformation documentation to conquer them all
 
 <p align="center">
-  <img src="./resources/frame_transformer_teaser.png" width="640" title="teaser">
+    <!-- pypi-strip -->
+    <picture>
+    <!-- /pypi-strip -->
+    <img alt="frame-transformer" src="./resources/frame_transformer_teaser.png" width="500">
+    <!-- pypi-strip -->
+    </picture>
+    <!-- /pypi-strip -->
 </p>
 
 
