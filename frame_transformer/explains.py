@@ -64,6 +64,7 @@ SYSTEM_EMOJI_DICT = {
     "ros": ":robot_face:",
     "opencv": ":camera:",
     "airsim": ":airplane:",
+    "unreal": ":video_game:",
 }
 
 

@@ -127,7 +127,7 @@ def _rotation_change_rot_matrix(R: np.ndarray, initial: Frame, target: Frame) ->
     if axis_mapping.v_inverted:
         rot[axis_mapping.v_from_to[1], axis_mapping.v_from_to[0]] = -1
 
-    return rot @ R
+    return rot @ R @ rot.T
 
 def _get_rotation_matrix(initial: Frame, target: Frame) -> np.ndarray:
     """
